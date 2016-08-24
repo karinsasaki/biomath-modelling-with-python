@@ -1,0 +1,226 @@
+
+\documentclass[11pt]{amsart}
+\usepackage[usenames,dvipsnames,condensed]{xcolor}
+%\usepackage[a4paper,right=.7in,left=.7in,top=.6in,bottom=.5in]{geometry}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage[UKenglish]{babel}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{afterpage}
+\usepackage{sansmath}
+\usepackage{marginnote}
+\usepackage[version=3]{mhchem}
+
+\usepackage{boxedminipage}
+%\usepackage{titlesec}
+
+\usepackage{hyperref}
+\hypersetup{
+    backref =       true,
+    pagebackref  =  true,
+    colorlinks =    true,
+    linkcolor =     purple,
+    anchorcolor =   [rgb]{0.0,0.0,0.0},
+    citecolor =     [rgb]{0.0,0.0,0.0},
+    filecolor =     [rgb]{0.0,0.0,0.0},
+    urlcolor =      [rgb]{0.0,0.0,0.0},
+    pdftitle=       {Title},
+    pdfsubject=     {Title},
+    pdfauthor=      {K. Sasaki}
+}
+ 
+%\reversemarginpar
+
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+%\titleformat{\paragraph}
+%{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+%\titlespacing*{\paragraph}
+%{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\lhead{Predoc/EMBO CBB courses, script}
+%\rhead{Karin Sasaki}
+
+%------------------------------------------------------------------------------------------------------------%
+
+
+\begin{document}
+
+\[\frac{dA}{dt} = -k_{1}*A\]
+
+\[\frac{dA}{dt} = -k_{2f}*A + k_{2r}*B\]
+\[\frac{dB}{dt} = k_{2f}*A - k_{2r}*B\]
+
+Karin's
+\[Ssk2 + ATP \xrightarrow[]{k_1^{MAP}} SskP + ADP \]
+\[Ssk2P \xrightarrow[]{k_{-1}^{MAP}} Ssk2 \]
+\[Ssk2P + Pbs2 \xrightarrow[]{k_2^{MAP}} Ssk2 + Pbs2P\]
+\[Pbs2P \xrightarrow[]{k_{-2}^{MAP}} Pbs2\]
+\[Ssk2P + Pbs2P \xrightarrow[]{k_3^{MAP}} Ssk2 + Pbs2P_2\]
+\[Pbs2P_2 \xrightarrow[]{k_{-3}^{MAP}} Pbs2P\]
+\[Hog1 + Pbs2P_2 \xrightarrow[]{k_4^{MAP}} Hog1P + Pbs2P\]
+\[Hog1P \xrightarrow[]{k_v{-4}^{MAP}} Hog1\]
+\[Hog1P + Pbs2P_2 \xrightarrow[]{k_5^{MAP}} Hog1P_{2cyt} + Pbs2P\]
+\[Hog1P_{2cyt} \xrightarrow[]{k_{-5}^{MAP}} Hog1P\]
+\[Hog1P_{2cyt} \xrightarrow[]{k_{trans}} Hog1P_{2nuc}\]
+\[Hog1P_{2nuc} \xrightarrow[]{k_{dephos}} Hog1_{nuc}\]
+\[Hog1_{nuc} \xrightarrow[]{k_{trans1}} Hog1\]
+\[Hog1 \xrightarrow[]{k_{trans2}} Hog1_{nuc}\]
+
+\clearpage
+Paper's
+\[Ssk2 + ATP \xrightarrow[]{k_1^{MAP}} SskP + ADP \]
+\[Ssk2P \xrightarrow[]{k_{-1}^{MAP}} Ssk2 \]
+\[Pbs2 + ATP \xrightarrow[]{k_2^{MAP}} ADP + Pbs2P\]
+\[Pbs2P \xrightarrow[]{k_{-2}^{MAP}} Pbs2\]
+\[Pbs2P + ATP \xrightarrow[]{k_3^{MAP}} Pbs2P_2 + ADP\]
+\[Pbs2P_2 \xrightarrow[]{k_{-3}^{MAP}} Pbs2P\]
+\[Hog1 + ATP \xrightarrow[]{k_4^{MAP}} Hog1P + ADP\]
+\[Hog1P \xrightarrow[]{k_v{-4}^{MAP}} Hog1\]
+\[Hog1P + ATP \xrightarrow[]{k_5^{MAP}} Hog1P_{2cyt} + ADP\]
+\[Hog1P_{2cyt} \xrightarrow[]{k_{-5}^{MAP}} Hog1P\]
+\[Hog1P_{2cyt} \xrightarrow[]{k_{trans}} Hog1P_{2nuc}\]
+\[Hog1P_{2nuc} \xrightarrow[]{k_{dephos}} Hog1_{nuc}\]
+\[Hog1_{nuc} \xrightarrow[]{k_{trans1}} Hog1\]
+\[Hog1 \xrightarrow[]{k_{trans2}} Hog1_{nuc}\]
+
+\[v_1^{MAP} = k_1^{MAP}*Ssk2*Ssk1\]
+\[v_{-1}^{MAP} =k_{-1}^{MAP}*Ssk2P \]
+\[v_2^{MAP} = k_2^{MAP}*Ssk2*Pbs2\]
+\[v_{-2}^{MAP} = k_{-2}*Pbs2P\]
+\[v_3^{MAP} = k_3^{MAP}*Ssk2P*Pbs2P\]
+\[v_{-3}^{MAP} = k_{-3}*Pbs2P_2\]
+\[v_4^{MAP} = k_4^{MAP}*Hog1*PbsP_2\]
+\[v_{-4}^{MAP} = k_{-4}*Hog1P\]
+\[v_{5}^{MAP} = k_5*Hog1P*Pbs2P_2\]
+\[v_{-5}^{MAP} = k_{-5}*Hog1P_{2cyt}\]
+\[v_{trans} = k_{trans}*Hog1P_{2cyt}\]
+\[v_{dephos} = k_{dephos}*Hog1P_{2nuc}*Ptp2\]
+\[v_{trans1} = k_{trans1}*Hog1_{nuc}\]
+\[v_{trans2} = k_{trans2}*Hog1\]
+
+\clearpage
+Karin's 
+
+\[\frac{dSsk2}{dt} = -v_1^{MAP} + v_{-1}^{MAP} + v_2^{MAP} + v_3^{MAP}\]
+\[\frac{dSsk2P}{dt} = v_1^{MAP} - v_{-1}^{MAP} - v_2^{MAP} - v_{3}^{MAP}\]
+\[\frac{dPbs2}{dt} = -v_2^{MAP} + v_{-2}^{MAP}\]
+\[\frac{dPbs2P}{dt} = v_2^{MAP} - v_{-2}^{MAP}- v_3^{MAP} + v_{-3}^{MAP} + v_4^{MAP}\]
+\[\frac{dPbs2P_2}{dt} = v_3^{MAP} - v_{-3}^{MAP} - v_4^{MAP} - v_5^{MAP}\]
+\[\frac{dHog1}{dt} = -v_4^{MAP} + v_{-4}^{MAP} + v_{trans1} - v_{trans2}\]
+\[\frac{dHog1P}{dt} = v_4^{MAP} - v_{-4}^{MAP} - v_{5}^{MAP} + v_{-5}^{MAP} \]
+\[\frac{dHog1P_{2cyt}}{dt} =  v_{5}^{MAP} - v_{-5}^{MAP} - v_{trans}\]
+\[\frac{dHog1P_{2nuc}}{dt} = v_{trans} - v_{dephos}\]
+\[\frac{dHog1_{nuc}}{dt} = -v_{trans1} + v_{dephos} + v_{trans2} \]
+
+Paper
+\[\frac{dSsk2}{dt} = -v_1^{MAP} + v_{-1}^{MAP} \]
+\[\frac{dSsk2P}{dt} = v_1^{MAP} - v_{-1}^{MAP} \]
+\[\frac{dPbs2}{dt} = -v_2^{MAP} + v_{-2}^{MAP}\]
+\[\frac{dPbs2P}{dt} = v_2^{MAP} - v_{-2}^{MAP} - v_3^{MAP} + v_{-3}^{MAP}\]
+\[\frac{dPbs2P_2}{dt} = v_3^{MAP} - v_{-3}^{MAP} \]
+\[\frac{dHog1}{dt} = -v_4^{MAP} + v_{-4}^{MAP} + v_{trans1} - v_{trans2}\]
+\[\frac{dHog1P}{dt} = v_4^{MAP} - v_{-4}^{MAP} - v_{5}^{MAP} + v_{-5}^{MAP} \]
+\[\frac{dHog1P_{2cyt}}{dt} =  v_{5}^{MAP} - v_{-5}^{MAP} - v_{trans}\]
+\[\frac{dHog1P_{2nuc}}{dt} = v_{trans} - v_{dephos}\]
+\[\frac{dHog1_{nuc}}{dt} = -v_{trans1} + v_{dephos} + v_{trans2} \]
+
+
+\clearpage
+
+\begin{align}
+\cee{Sln1 &->[k_1^{TCS}]Sln1P} \\
+\cee{Sln1P + Ypd1 &<=>[k_{2}^{TCS}][k_{-2}^{TCS}] Sln1 + Ypd1P} \\
+\cee{Ypd1P + Ssk1 &->[k_3^{TCS}] Ypd1 + Ssk1P} \\
+\cee{Ssk1P &->[k_4^{TCS}] Ssk1}
+\end{align}
+
+\[\frac{dVolume}{dt} = -v_0^{TCS}\]
+\[\frac{dSln1}{dt} = -v_1^{TCS} + v_2^{TCS}\]
+\[\frac{dSln1P}{dt} = v_1^{TCS} - v_2^{TCS}\]
+\[\frac{dYpd1}{dt} = -v_2^{TCS} + v_3^{TCS}\]
+\[\frac{dYpd1P}{dt} = v_2^{TCS} - v_3^{TCS}\]
+\[\frac{dSsk1}{dt} = -v_3^{TCS} + v_4^{TCS}\]
+\[\frac{dSsk1P}{dt} = v_3^{TCS} - v_4^{TCS}\]
+
+\[v_0^{TCS} = k_0^{TCS}*SSk1\]
+\[v_1^{TCS} = k_1^{TCS}*Sln1\]
+\[v_2^{TCS} = k_2^{TCS}*Sln1*Ypd1 - k_{-2}^{TCS}*Sln1*Ypd1P\]
+\[v_3^{TCS} = k_3^{TCS}*Ssk1*Ypd1P\]
+\[v_4^{TCS} = k_4^{TCS}*Ssk1P\]
+
+\clearpage
+\[v0 = k0*Receptor\]
+\[v1 = k1*MAPKKK*Receptor\]
+\[v2 = k2*MAPKKKP*Phosphotase\]
+\[v3 = k3*MAPKK*MAPKKKP    \]
+\[v4 = k4*MAPKKP*Phosphotase\]
+\[v5 = k5*MAPK*MAPKKP    \]
+\[v6 = k6*MAPKP*Phosphotase\]
+
+\[\frac{dReceptor}{dt} = -v0\]
+\[\frac{dMAPKKKP}{dt} = v1 - v2\]
+\[\frac{dMAPKKP}{dt} = v3 - v4\]
+\[\frac{dMAPKP}{dt} = v5 - v6\]
+\[\frac{dMAPKKK}{dt} = -dMAPKKKP\]
+\[\frac{dMAPKK}{dt} = -dMAPKKP\]
+\[\frac{dMAPK}{dt} = -dMAPKP   \]
+\[\frac{dPhosphotase}{dt} = 0\]
+
+
+
+\clearpage
+\[v_0 = k_0*Ssk1\]
+\[v_1^{MAP} = k_1^{MAP}*Ssk2*Ssk1\]
+\[v_{-1}^{MAP} =k_{-1}^{MAP}*Ssk2P \]
+\[v_2^{MAP} = k_2^{MAP}*Ssk2*Pbs2\]
+\[v_{-2}^{MAP} = k_{-2}*Pbs2P\]
+\[v_3^{MAP} = k_3^{MAP}*Ssk2P*Pbs2P\]
+\[v_{-3}^{MAP} = k_{-3}*Pbs2P_2\]
+\[v_4^{MAP} = k_4^{MAP}*Hog1*PbsP_2\]
+\[v_{-4}^{MAP} = k_{-4}*Hog1P\]
+\[v_{5}^{MAP} = k_5*Hog1P*Pbs2P_2\]
+\[v_{-5}^{MAP} = k_{-5}*Hog1P_2\]
+
+\[\frac{dSsk1}{dt} = -v_0^{MAP}\]
+\[\frac{dSsk2}{dt} = -v_1^{MAP} + v_{-1}^{MAP} \]
+\[\frac{dSsk2P}{dt} = v_1^{MAP} - v_{-1}^{MAP} \]
+\[\frac{dPbs2}{dt} = -v_2^{MAP} + v_{-2}^{MAP}\]
+\[\frac{dPbs2P}{dt} = v_2^{MAP} - v_{-2}^{MAP} - v_3^{MAP} + v_{-3}^{MAP}\]
+\[\frac{dPbs2P_2}{dt} = v_3^{MAP} - v_{-3}^{MAP} \]
+\[\frac{dHog1}{dt} = -v_4^{MAP} + v_{-4}^{MAP}\]
+\[\frac{dHog1P}{dt} = v_4^{MAP} - v_{-4}^{MAP} - v_{5}^{MAP} + v_{-5}^{MAP} \]
+\[\frac{dHog1P_2}{dt} =  v_{5}^{MAP} - v_{-5}^{MAP}\]
+
+\clearpage
+
+\[vts = kts_1*Hog_1P_{2nuc}\]
+\[vex = kex*mRNA_{nuc}\]
+\[vrd = kts*mRNA_{cyt}\]
+\[vtl = ktl*mRNA_{cyt}\]
+\[vpd = kpd*Protein\]
+
+
+\[\frac{dmRNA_{nuc}}{dt} = vts - vex\]
+\[\frac{dmRNA_{cyt}}{dt} = vex - vrd\]
+\[\frac{dProtein}{dt} = vtl - vpd\]
+
+\[f(E, S, ES)\]
+
+\end{document}
+
+
+
+
+
