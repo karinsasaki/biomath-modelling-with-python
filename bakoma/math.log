@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  22 AUG 2016 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  22 SEP 2016 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -786,40 +786,62 @@ LaTeX Info: Redefining \nameref on input line 58.
 
 ] [6
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
- [7
+] [7
+
+] [8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+Overfull \hbox (48.15988pt too wide) detected at line 316
+[] \OT1/cmr/m/n/10.95 = ^^@ \OMS/cmsy/m/n/10.95 ^^C \OML/cmm/m/it/10.95 V \OT1/
+cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^C [] \OT1/cmr/m/n/10.95 = []
+ []
+
+
+Overfull \hbox (5.44244pt too wide) detected at line 358
+[] \OT1/cmr/m/n/10.95 = ^^@ \OMS/cmsy/m/n/10.95 ^^C \OML/cmm/m/it/10.95 V \OT1/
+cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^C [] \OT1/cmr/m/n/10.95 = []
+ []
+
+[9]
+Overfull \hbox (5.44244pt too wide) detected at line 417
+[] \OT1/cmr/m/n/10.95 = ^^@ \OMS/cmsy/m/n/10.95 ^^C \OML/cmm/m/it/10.95 V \OT1/
+cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^C [] \OT1/cmr/m/n/10.95 = []
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 419.
+[10
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 419.
  (./math.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 419.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 419.
 Package rerunfilecheck Info: File `math.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 419.
  ) 
 Here is how much of TeX's memory you used:
- 15717 strings out of 493089
- 279372 string characters out of 6134842
- 380724 words of memory out of 5000000
+ 15720 strings out of 493089
+ 279391 string characters out of 6134842
+ 384724 words of memory out of 5000000
  18871 multiletter control sequences out of 15000+600000
  10478 words of font info for 41 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  42i,22n,46p,10346b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on math.pdf (7 pages, 100870 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on math.pdf (10 pages, 120496 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
