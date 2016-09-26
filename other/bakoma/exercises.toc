@@ -1,0 +1,49 @@
+\select@language {UKenglish}
+\contentsline {section}{\tocsection {}{1}{Introduction to MATLAB}}{2}{section.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{MATLAB windows, variables and output}}{2}{subsection.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.1}{MATLAB Tabs}}{2}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.2}{MATLAB Windows}}{2}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.3}{Saving your work}}{3}{subsubsection.1.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Arrays and operations on arrays}}{4}{subsection.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{Help and Documentation}}{7}{subsection.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{Data types}}{7}{subsection.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{MATLAB Functions (tools) to manipulate arrays}}{9}{subsection.1.5}
+\contentsline {subsection}{\tocsubsection {}{1.6}{M-files - scripts}}{10}{subsection.1.6}
+\contentsline {section}{\tocsection {}{2}{Introduction to MATLAB - Exercises}}{11}{section.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{MATLAB Windows, variables and output}}{11}{subsection.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Arrays and operations on arrays}}{11}{subsection.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Data types}}{11}{subsection.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{MATLAB Functions to manipulate arrays}}{12}{subsection.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.5}{Script files}}{12}{subsection.2.5}
+\contentsline {section}{\tocsection {}{3}{Introduction to programming}}{13}{section.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{M-files - functions}}{13}{subsection.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Scripts vs functions}}{14}{subsection.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Flow control and loop constructs}}{15}{subsection.3.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.1}{Logical operations}}{15}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.2}{if statement}}{16}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3}{for loop}}{16}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.4}{while loop}}{16}{subsubsection.3.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.4}{Brief on debugging}}{17}{subsection.3.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1}{Procedure for debugging from the GUI (see figure \ref {fig_debug}).}}{17}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2}{Debugging at the command prompt.}}{18}{subsubsection.3.4.2}
+\contentsline {section}{\tocsection {}{4}{Introduction to programming - Exercises}}{19}{section.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Functions}}{19}{subsection.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{Scripts vs functions}}{19}{subsection.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{Flow control and loop constructs}}{19}{subsection.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{Debugging}}{20}{subsection.4.4}
+\contentsline {section}{\tocsection {}{5}{Data import and visual analysis}}{20}{section.5}
+\contentsline {subsection}{\tocsubsection {}{}{Example 1 - Contractile actin network}}{20}{section*.1}
+\contentsline {subsection}{\tocsubsection {}{}{Example 2 - Protein recruitment by membrane lipids}}{21}{section*.2}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Data import}}{21}{subsection.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Making and editing figures}}{21}{subsection.5.2}
+\contentsline {section}{\tocsection {}{6}{Data import and visual analysis - Exercises}}{23}{section.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{Data import}}{23}{subsection.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{Making and editing figures}}{23}{subsection.6.2}
+\contentsline {section}{\tocsection {}{7}{More on MATLAB functions}}{23}{section.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Image processing}}{24}{subsection.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{Exercise - Image processing}}{25}{subsection.7.2}
+\contentsline {section}{\tocsection {}{8}{Next steps}}{25}{section.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{Programming}}{25}{subsection.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{Help from other resources}}{25}{subsection.8.2}
+\contentsline {section}{\tocsection {}{9}{Final comments}}{26}{section.9}
+\contentsline {section}{\tocsection {}{10}{Bibliography}}{26}{section.10}

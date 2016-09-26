@@ -1,0 +1,48 @@
+\BOOKMARK [1][-]{section.1}{1. Introduction to MATLAB}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{1.1. MATLAB windows, variables and output}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{1.1.1. MATLAB Tabs}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{1.1.2. MATLAB Windows}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{1.1.3. Saving your work}{subsection.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.2}{1.2. Arrays and operations on arrays}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.3}{1.3. Help and Documentation}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.4}{1.4. Data types}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.5}{1.5. MATLAB Functions \(tools\) to manipulate arrays}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.6}{1.6. M-files - scripts}{section.1}% 10
+\BOOKMARK [1][-]{section.2}{2. Introduction to MATLAB - Exercises}{}% 11
+\BOOKMARK [2][-]{subsection.2.1}{2.1. MATLAB Windows, variables and output}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.2}{2.2. Arrays and operations on arrays}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.3}{2.3. Data types}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.4}{2.4. MATLAB Functions to manipulate arrays}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.5}{2.5. Script files}{section.2}% 16
+\BOOKMARK [1][-]{section.3}{3. Introduction to programming}{}% 17
+\BOOKMARK [2][-]{subsection.3.1}{3.1. M-files - functions}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.2}{3.2. Scripts vs functions}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.3}{3.3. Flow control and loop constructs}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.3.1}{3.3.1. Logical operations}{subsection.3.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.3.2}{3.3.2. if statement}{subsection.3.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.3.3}{3.3.3. for loop}{subsection.3.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.3.4}{3.3.4. while loop}{subsection.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.4}{3.4. Brief on debugging}{section.3}% 25
+\BOOKMARK [3][-]{subsubsection.3.4.1}{3.4.1. Procedure for debugging from the GUI \(see figure ??\).}{subsection.3.4}% 26
+\BOOKMARK [3][-]{subsubsection.3.4.2}{3.4.2. Debugging at the command prompt.}{subsection.3.4}% 27
+\BOOKMARK [1][-]{section.4}{4. Introduction to programming - Exercises}{}% 28
+\BOOKMARK [2][-]{subsection.4.1}{4.1. Functions}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.2}{4.2. Scripts vs functions}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.3}{4.3. Flow control and loop constructs}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.4}{4.4. Debugging}{section.4}% 32
+\BOOKMARK [1][-]{section.5}{5. Data import and visual analysis}{}% 33
+\BOOKMARK [2][-]{section*.1}{Example 1 - Contractile actin network}{section.5}% 34
+\BOOKMARK [2][-]{section*.2}{Example 2 - Protein recruitment by membrane lipids}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.1}{5.1. Data import}{section.5}% 36
+\BOOKMARK [2][-]{subsection.5.2}{5.2. Making and editing figures}{section.5}% 37
+\BOOKMARK [1][-]{section.6}{6. Data import and visual analysis - Exercises}{}% 38
+\BOOKMARK [2][-]{subsection.6.1}{6.1. Data import}{section.6}% 39
+\BOOKMARK [2][-]{subsection.6.2}{6.2. Making and editing figures}{section.6}% 40
+\BOOKMARK [1][-]{section.7}{7. More on MATLAB functions}{}% 41
+\BOOKMARK [2][-]{subsection.7.1}{7.1. Image processing}{section.7}% 42
+\BOOKMARK [2][-]{subsection.7.2}{7.2. Exercise - Image processing}{section.7}% 43
+\BOOKMARK [1][-]{section.8}{8. Next steps}{}% 44
+\BOOKMARK [2][-]{subsection.8.1}{8.1. Programming}{section.8}% 45
+\BOOKMARK [2][-]{subsection.8.2}{8.2. Help from other resources}{section.8}% 46
+\BOOKMARK [1][-]{section.9}{9. Final comments}{}% 47
+\BOOKMARK [1][-]{section.10}{10. Bibliography}{}% 48
